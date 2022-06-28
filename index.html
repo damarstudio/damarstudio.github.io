@@ -1,1 +1,539 @@
-<p>damar tets</p>
+
+    <!DOCTYPE html>
+    <html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>Login - IDCloudHost</title>
+        <meta name="description" content="Portal Client Area IDcloudhost untuk kebutuhan manage Akun, Layanan, Invoice pembayaran, dan manage fitur-fitur layanan IDcloudhost lengkap dan mudah."/>
+        <meta name="robots" content="index, follow" />
+                
+                                                                <link href="/templates/lagom/core/styles/default/assets/css/theme.css?v=1.5.4" rel="stylesheet">
+                                                                                
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        var csrfToken = 'a9ab8d36eb4b233bfd606375930260d071d8358f',
+            markdownGuide = 'Markdown Guide',
+            locale = 'en',
+            saved = 'saved',
+            saving = 'autosaving',
+            whmcsBaseUrl = "",
+            requiredText = 'Required',
+            recaptchaSiteKey = "6LcqCo8UAAAAAILBjPDxPaKAjTGrX6JkK1mmnQj2";
+    </script>
+
+    <script src="/templates/lagom/assets/js/scripts.min.js?v=1.5.4"></script>
+    <script src="/templates/lagom/assets/js/core.min.js?v=1.5.4"></script>
+
+    
+    
+        <link href="/assets/css/timeline.css" rel="stylesheet">
+        <link href="/assets/css/slider.css" rel="stylesheet">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62244875-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-62244875-1', {
+  'cookie_domain': 'my.idcloudhost.com'
+});
+</script>
+	<!-- Facebook Pixel -->
+	<meta name="facebook-domain-verification" content="gb8j42lwireimys98db8u8sa8w6g8u" />
+	<!-- Facebook Pixel End-->
+	
+    <!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WJPS45K');</script>
+	<!-- End Google Tag Manager -->
+	
+	<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=i+"?sdkid="+e+"&lib="+t;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)};
+		
+		  ttq.load('C5J9SDS6J7TSRVQDMPCG');
+		  ttq.page();
+		}(window, document, 'ttq');
+	</script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	
+<script src="modules/addons/intercomio/assets/js/referrer-tracking.js"></script><script src="modules/addons/intercomio/assets/js/jquery.cookie.js"></script>
+<script>
+  window.intercomSettings = {
+    app_id: "svm1u4ez",
+  };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/svm1u4ez';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+
+        
+        <!-- Facebook Pixel Code Client Area -->
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2668882709893486');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=2668882709893486&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+        <!-- Global site tag (gtag.js) - Google Ads: 951052197 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-951052197"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-951052197');
+        </script>
+        
+                <style>
+            @media only screen and (max-width: 768px){
+                .intercom-launcher-frame {
+                    display: none !important;
+                }
+            }
+        </style>
+        <!-- Start Alexa Certify Javascript -->
+        <script type="text/javascript">
+        _atrk_opts = { atrk_acct:"zaWXw1O7kI20L7", domain:"idcloudhost.com",dynamic: true};
+        (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+        </script>
+        <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=zaWXw1O7kI20L7" style="display:none" height="1" width="1" alt="" /></noscript>
+        <!-- End Alexa Certify Javascript -->
+    
+<!-- Dynamic Template Compatibility -->
+<!-- Please update your theme to include or have a comment on the following to negate dynamic inclusion -->
+<link rel="stylesheet" type="text/css" href="/assets/css/fontawesome-all.min.css" />
+
+</head>
+    <body class="lagom   lagom-not-portal lagom-layout-condensed lagom-layout-banner page-login page-type-full" data-phone-cc-input="1">
+        	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJPS45K"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+                    
+
+
+   
+<div class="app-main">    
+            <img src="templates/lagom/core/styles/default/assets/img/bg-full-page-login.png" style="left:0;right:0;top:0;bottom:0;position:fixed;width:100%;height:100%;" />
+            <div class="main-body login-page"> 
+        <div class="container">
+            <div class="main-grid  row">
+                    
+
+    <div class="main-content col-sm-12">
+                                       <a href="/index.php tabindex="7"" class="logo"><img src="/templates/lagom/assets/img/logo/logo_big_inverse.png" alt="IDCloudHost"/></a>
+                            
+    <div class="logincontainer">
+        <div class="logincontainer-body">
+            <!--                       
+            <div class="header-lined text-center m-b-24">
+            <h1>
+                            <span class="text-lighter text-small">This page is restricted</span>
+                <br />
+                            Secure Client Login
+            </h1>
+                    </div>
+                     -->
+                                        <div class="providerLinkingFeedback"></div>
+                 
+    
+        <div id="providerLinkingMessages" class="hidden">
+            <p class="providerLinkingMsg-preLink-init_failed">
+                <span class="provider-name"></span> is unavailable at this time. Please try again later.
+            </p>
+            <p class="providerLinkingMsg-preLink-connect_error">
+                <strong>Error</strong> We were unable to connect your account. Please contact your system administrator.
+            </p>
+            <p class="providerLinkingMsg-preLink-complete_sign_in">
+                Please complete sign in with your chosen service provider.
+            </p>
+            <p class="providerLinkingMsg-preLink-2fa_needed">
+                Automatic sign-in successful! Redirecting...
+            </p>
+            <p class="providerLinkingMsg-preLink-linking_complete">
+                <strong>Success!</strong> Your account is now linked with your :displayName account.
+            </p>
+            <p class="providerLinkingMsg-preLink-login_to_link-signin-required">
+                <strong>Link Initiated!</strong> Please complete sign in to associate this service with your existing account. You will only have to do this once.
+            </p>
+            <p class="providerLinkingMsg-preLink-login_to_link-registration-required">
+                <strong>Link Initiated!</strong> Please complete the registration form below.
+            </p>
+            <p class="providerLinkingMsg-preLink-checkout-new">
+                <strong>Link Initiated!</strong> Please complete your new account information.
+            </p>
+            <p class="providerLinkingMsg-preLink-other_user_exists">
+                <strong>Error</strong> This account is already connected to an existing account with us. Please choose a different account at the third party authentication provider.
+            </p>
+            <p class="providerLinkingMsg-preLink-already_linked">
+                <strong>Error</strong> This account is already connected to your account with us. Please choose a different account at the third party authentication provider.
+            </p>
+            <p class="providerLinkingMsg-preLink-default">
+                <strong>Error</strong> We were unable to connect your account. Please contact your system administrator.
+            </p>
+        </div>
+
+                    <div class="text-lighter text-center text-small">
+                Sign in using social network account
+            </div>
+        
+        <div class="providerPreLinking" data-link-context="login"
+            data-hide-on-prelink=0            data-disable-on-prelink=0>
+            <div class="social-signin-btns ">
+                                                            <script>
+    window.onerror = function(e){
+        WHMCS.authn.provider.displayError();
+    };
+
+    var googleUser = {};
+    var startGoogleApp = function() {
+        gapi.load('auth2', function() {
+            gapi.auth2.init({
+                client_id: '155623754404-985n4lt1040svqs0s915rceavknfcbus.apps.googleusercontent.com',
+                cookiepolicy: 'https://my.idcloudhost.com'
+            }).then(function(response) {
+                jQuery('.btn-google').each(function (i, el) {
+                    response.attachClickHandler(el, {},
+                        function (googleUser) {
+                            onSignIn(googleUser);
+                        }
+                    );
+                });
+            }, function(reason) {
+                if (reason.error == 'idpiframe_initialization_failed') {
+                    jQuery('.btn-google').click(function(e) {
+                        WHMCS.authn.provider.displayError('Google Sign-In', 'init_failed', reason.details);
+                    });
+                } else {
+                    jQuery('.btn-google').click(function(e) {
+                        WHMCS.authn.provider.displayError('Google Sign-In');
+                    });
+                }
+            });
+        });
+    };
+
+    function onSignIn(googleUser) {
+        WHMCS.authn.provider.preLinkInit();
+
+        var failIfExists = 0;
+        if ("login" === "register"
+           || "login" === "connect"
+        ) {
+            failIfExists = 1;
+        }
+        
+        var context = {
+            htmlTarget: "login",
+            targetLogin: "login",
+            targetRegister: "register",
+            redirectUrl: "%2Fclientarea.php"
+        };
+        var config = {
+            url: "/index.php?rp=/auth/provider/google_signin/finalize",
+            method: "POST",
+            dataType: "json",
+            data: {
+                id_token: googleUser.getAuthResponse().id_token,
+                fail_if_exists: failIfExists,
+                token: "a9ab8d36eb4b233bfd606375930260d071d8358f",
+                cartCheckout: 0
+            }
+        };
+        var provider = {
+            "name": "Google",
+            "icon":  "<img src=\"/assets/img/auth/google_icon.png\" width=\"17px\" height=\"17px\" alt=\"googleIcon\" /> "
+        };
+
+        var providerDone = function () { gapi.auth2.getAuthInstance().signOut(); };
+        var providerError = function () { gapi.auth2.getAuthInstance().signOut(); };
+
+        WHMCS.authn.provider.signIn(config, context, provider, providerDone, providerError);
+    }
+
+</script>
+<script src="https://apis.google.com/js/platform.js?onload=startGoogleApp" async defer></script>
+            <button id="btnGoogleSignin1" class="btn btn-social btn-google" type="button">
+                <img src="/assets/img/auth/google_icon.png" width="17px" height="17px" alt="googleIcon" />
+                Sign in with Google
+            </button>
+                                                </div>
+        </div>
+
+        
+                    <div class="text-lighter text-center text-small text-divider">
+                <span>or use your account</span>
+            </div>
+                                    <form method="post" action="/index.php?rp=/login" class="login-form" role="form">
+<input type="hidden" name="token" value="a9ab8d36eb4b233bfd606375930260d071d8358f" />
+                <div class="form-group">
+                    <label for="inputEmail">Email Address</label>
+                    <input type="email" name="username" class="form-control input-lg" id="inputEmail" placeholder="Enter email" tabindex="1" autofocus>
+                </div>
+                <div class="form-group">
+                    <div class="d-flex space-between">
+                        <label for="inputPassword">Password</label>
+                        <a href="/index.php?rp=/password/reset" tabindex="5">Forgot?</a>
+                    </div>
+                    <input type="password" name="password" class="form-control input-lg" id="inputPassword" placeholder="Password" autocomplete="off" tabindex="2">
+                </div>
+                <div class="form-group">
+                    <label class="checkbox m-b-16" tabindex="3">
+                        <input class="icheck-control" type="checkbox" name="rememberme"/> Remember Me
+                    </label>
+                </div>
+                                    <div class="text-center margin-bottom">
+                             
+                            </div>
+                                <input id="login" type="submit" class="btn btn-lg btn-primary btn-block " value="Login" tabindex="4"/>
+            </form>
+        </div>
+                    <div class="logincontainer-footer">
+                <div class="text-light">Not a member yet? <a href="register.php" tabindex="6">Create a New Account</a></div>
+            </div>
+            </div>
+
+            <div class="logincontainer-language dropup language">
+            <span>Language:&nbsp;</span>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                English
+                <b class="ls ls-caret"></b>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right ps" id="languageChooserContent">
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=arabic">العربية</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=azerbaijani">Azerbaijani</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=catalan">Català</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=chinese">中文</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=croatian">Hrvatski</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=czech">Čeština</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=danish">Dansk</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=dutch">Nederlands</a>
+                    </div>
+                                    <div class="dropdown-menu-item active">
+                        <a href="/index.php?rp=%2Flogin&amp;language=english">English</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=estonian">Estonian</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=farsi">Persian</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=french">Français</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=german">Deutsch</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=hebrew">עברית</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=hungarian">Magyar</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=indonesia">Indonesian</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=italian">Italiano</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=macedonian">Macedonian</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=norwegian">Norwegian</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=portuguese-br">Português</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=portuguese-pt">Português</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=romanian">Română</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=russian">Русский</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=spanish">Español</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=swedish">Svenska</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=turkish">Türkçe</a>
+                    </div>
+                                    <div class="dropdown-menu-item ">
+                        <a href="/index.php?rp=%2Flogin&amp;language=ukranian">Українська</a>
+                    </div>
+                                <div class="ps__rail-x">
+                    <div class="ps__thumb-x" tabindex="0"></div>                    
+                </div>
+                <div class="ps__rail-y">
+                    <div class="ps__thumb-y" tabindex="0"></div>                   
+                </div>
+            </div>                 
+        </div>
+    </div>
+<script>
+    $(document).ready(function(){
+        $(".fb-login-button").html(`<i class="fab fa-facebook"></i>`)
+    })
+</script>
+
+                            
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>       
+                                
+        <div id="fullpage-overlay" class="hidden">
+            <div class="outer-wrapper">
+                <div class="inner-wrapper">
+                    <img src="/assets/img/overlay-spinner.svg">
+                    <br>
+                    <span class="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal system-modal fade" id="modalAjax" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="lm lm-close"></i></button>
+                        <h3 class="modal-title"></h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="loader">
+                             
+    <div class="spinner ">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+                             </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary modal-submit">
+                            Submit
+                        </button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form action="#" id="frmGeneratePassword" class="form-horizontal">
+    <div class="modal fade" id="modalGeneratePassword">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="lm lm-close"></i></button>
+                    <h3 class="modal-title">
+                        Generate Password
+                    </h3>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-danger hidden" id="generatePwLengthError">
+                        Please enter a number between 8 and 64 for the password length
+                    </div>
+                    <div class="form-group">
+                        <label for="generatePwLength" class="col-sm-4 control-label">Password Length</label>
+                        <div class="col-sm-8">
+                            <input type="number" min="8" max="64" value="12" step="1" class="form-control input-inline input-inline-100" id="inputGeneratePasswordLength">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="generatePwOutput" class="col-sm-4 control-label">Generated Password</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="inputGeneratePasswordOutput">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-4">
+                            <button type="submit" class="btn btn-default btn-sm">
+                                <i class="fa fa-plus fa-fw"></i>
+                                Generate new password
+                            </button>
+                            <button type="button" class="btn btn-default btn-sm copy-to-clipboard" data-clipboard-target="#inputGeneratePasswordOutput">
+                                <img src="/assets/img/clippy.svg" alt="Copy to clipboard" width="15">
+                                Copy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary" id="btnGeneratePasswordInsert" data-clipboard-target="#inputGeneratePasswordOutput">
+                        Copy to clipboard & Insert
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+    </div>
+    <script type="text/javascript" id="metricscubestats" data-t="23c8c7b747492274ef4b8f27f2fc09852a536bef" data-h="" src="https://api.metricscube.io/mcs.js"></script>
+
+    <div class="overlay"></div>
+    <script>
+        $(document).on("ready", function(){
+            setTimeout(function() {
+                if($(".intercom-launcher-frame").size() == 0){
+                    $(".cchatmenu").hide()
+                    }
+                }, 3000);
+        })
+        function clickLiveChat(){
+            $(".intercom-launcher-frame").contents().find(".intercom-launcher").click()
+        }
+    </script>
+    <script src="/templates/lagom/assets/js/vendor.js?v=1.5.4"></script>
+    <script src="/templates/lagom/assets/js/lagom-app.js?v=1.5.4"></script>
+    <script src="/templates/lagom/assets/js/whmcs-custom.min.js?v=1.5.4"></script>
+    <script src="/templates/lagom/assets/js/updates.js?v=1.5.4"></script>
+</body>
+</html>
+   
