@@ -1,0 +1,144 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    margin: 0;
+    background: url(background-desktop.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0px 37.5%;
+}
+.linktree {
+    position: fixed;
+    background-color: #275B47;
+    height: 100vh;
+    width: 25%;
+    text-align: center;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    scrollbar-width: none;
+}
+
+
+.linktree img {
+    margin: 70px 0 10px 0;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.linktree .user {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: -webkit-center;
+    color: #ffffff;
+}
+.linktree .user h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.linktree .user p {
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0;
+    width: 80%;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons a {
+    margin: 0 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+.linktree .link {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 20px 0 70px 0;
+    text-align: -webkit-center;
+}
+
+
+.linktree .link a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3b8669;
+    width:85%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px 0;
+    display:block;
+    text-align:center;
+}
+.linktree .link a:hover {
+    background-color: #32a579;
+    box-shadow: 2px 2px 6px #0a0a0a69;
+}
+
+
+
+
+
+
+
+.linktree .link button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3b8669;
+    border: none;
+    width:85%;
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px 0;
+    display:block;
+    transition: 0.4s;
+}
+.linktree .link .card-accordion {
+    color: #ffffff;
+    display: none;
+    width: 85%;
+}
+
+.linktree .link .card-accordion p {
+    padding: 0px 25px;
+    font-size: small;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.Copyright {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    padding-bottom: 5px;
+}
+
+
+
+/*mobile*/
+@media only screen and (max-width: 767px) {
+    body {
+        background: url(background-mobile.png) no-repeat center center fixed;
+        background-size: cover;
+        padding: 0;
+    }
+    .linktree {
+        right: 0;
+        width: 75%;
+    }
+}
+
+/*Tablet*/
+@media only screen and (max-width: 1024px) {
+
+}
+
