@@ -19,6 +19,7 @@ body {
     overflow-y:scroll;
     overflow-x:hidden;
     scrollbar-width: none;
+    text-align: center;
 }
 
 
@@ -43,10 +44,11 @@ body {
 
 
 .lable {
-  padding: 5px;
+  padding: 2px;
   background-color: #f44336;
   color: white;
   width: 80%;
+  font-size: 19px;
 }
 
 
